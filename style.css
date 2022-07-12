@@ -83,10 +83,10 @@ img {
     font-size: 5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
-    width: 90%;
+
     margin: 0 auto;
     background-color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: underline;
 
@@ -165,7 +165,7 @@ h1.mb-5 {
 
     .mobile-text {
         max-width: 100%;
-        line-height: 1.4em !important;
+        line-height: 1.8em !important;
     }
 
     .uti {
