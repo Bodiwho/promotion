@@ -15,6 +15,7 @@ h1 {
     line-height: 5%;
     text-shadow: black 2px 4px 5px;
     margin-bottom: 0;
+    margin-top: 35px;
 }
 
 
@@ -159,6 +160,7 @@ h1.mb-5 {
         font-size: 45px !important;
         padding-bottom: 0;
         margin-bottom: 4vw;
+        margin-top: 25px;
     }
 
     .mobile-text {
