@@ -19,7 +19,7 @@ h1 {
 
 .outer {
     margin-top: 0;
-    width: 100%
+    width: auto;
 }
 
 .inner {
@@ -103,6 +103,10 @@ img {
         position: relative;
         left: 55%;
 
+    }
+
+    h1 {
+        font-size: 7em;
 
     }
 
