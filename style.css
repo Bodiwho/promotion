@@ -99,6 +99,7 @@ img {
 h1.mb-5 {
     margin-bottom: 73px !important;
 }
+
 /* 
 @media only screen and (max-width:700px) {
     .logo {
@@ -119,51 +120,62 @@ h1.mb-5 {
 } */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
+
     /* CSS */
-    
-  }
-  
-  /* 
+
+}
+
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
+
+@media (min-width: 481px) and (max-width: 767px) {
+
     /* CSS */
-    
-  }
-  
-  /* 
+
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    .logo{
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .logo {
         width: 60% !important;
     }
+
+    img {
+        padding-top: 35vw;
+    }
+
     /* img.logo {
         margin-left: 100% !important;
     } */
-    h1{
-        font-size:45px !important;
-    }
-    .mobile-text{
-        max-width: 100%;
-        line-height: 1.6em !important;
-    }
-    .uti{
-        font-size:30px !important;
+    h1 {
+        font-size: 45px !important;
+        line-height: 0;
+        padding-bottom: 0;
+        margin-bottom: 4vw;
     }
 
-    .codigo{
+    .mobile-text {
+        max-width: 100%;
+        line-height: 0em !important;
+    }
+
+    .uti {
+        font-size: 30px !important;
+    }
+
+    .codigo {
         font-size: 35px !important;
     }
-    #copy-btn{
-        font-size: 45px !important;
+
+    #copy-btn {
+        font-size: 35px !important;
     }
-    
-  }
+
+}
