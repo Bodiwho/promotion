@@ -92,9 +92,14 @@ img {
 
 .copiar {
     margin-top: 20px;
-    width: 1000px;
+    /* width: 1000px; */
+    width: 100%;
 }
 
+h1.mb-5 {
+    margin-bottom: 73px !important;
+}
+/* 
 @media only screen and (max-width:700px) {
     .logo {
         margin-top: 110vw;
@@ -111,4 +116,54 @@ img {
     }
 
 
-}
+} */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .logo{
+        width: 60% !important;
+    }
+    /* img.logo {
+        margin-left: 100% !important;
+    } */
+    h1{
+        font-size:45px !important;
+    }
+    .mobile-text{
+        max-width: 100%;
+        line-height: 1.6em !important;
+    }
+    .uti{
+        font-size:30px !important;
+    }
+
+    .codigo{
+        font-size: 35px !important;
+    }
+    #copy-btn{
+        font-size: 45px !important;
+    }
+    
+  }
