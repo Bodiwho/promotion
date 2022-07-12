@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Todo Barato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="centro"> <img src="logo.png" alt="" class="logo"></div>
+    <div class="outer">
+        <div class="inner">
+            <h1>15€</h1>
+            <h1><br> Gratis en Cooltra </h1>
+
+            <p class="uti">UTILIZANDO ESTE CÓDIGO</p>
+            <div class="box">
+                <p class="codigo" id="link">rfvbmx</p>
+            </div>
+            <div class="copiar"> <span id="copy-btn">COPIAR</span>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var copybtn = document.getElementById("copy-btn");
+        var link = document.getElementById("link");
+
+        copybtn.onclick = function () {
+            navigator.clipboard.writeText(link.innerHTML);
+            copybtn.innerHTML = "COPIADO"
+            setTimeout(function () {
+                copybtn.innerHTML = "COPIAR"
+            }, 3000)
+        }
+
+    </script>
+
+</body>
+
+
+
+</html>
