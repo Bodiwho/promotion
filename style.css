@@ -12,8 +12,9 @@ h1 {
     font-size: 8em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    line-height: 10%;
+    line-height: 5%;
     text-shadow: black 2px 4px 5px;
+    margin-bottom: 0;
 }
 
 
@@ -156,14 +157,13 @@ h1.mb-5 {
     } */
     h1 {
         font-size: 45px !important;
-        line-height: 0;
         padding-bottom: 0;
         margin-bottom: 4vw;
     }
 
     .mobile-text {
         max-width: 100%;
-        line-height: 0em !important;
+        line-height: 0.1em !important;
     }
 
     .uti {
